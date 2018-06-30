@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sass Pagelayouts</title>
-    <link rel="stylesheet" type="text/css" href="node_modules/sierra-library/dist/sierra.min.css">
+    <link rel="stylesheet" href="https://minicss.org/flavorFiles/mini-nord.css">
     <style>
-        html {
-            background: rgb(46, 46, 46);
+        html,
+        body {
+            background: #333;
         }
 
-        _section {
+        article {
             background: #FFF;
-            margin: 2em;cd..
+            margin: 2em 4em;
+            padding: 1em;
         }
     </style>
+
 </head>
+
 <body>
-        <section class="section">
-                <h2 class="text-big">Typography sizes</h2>
+    <article>
+        <h1>Heading 1
+            <small>Subheading</small>
+        </h1>
+        <h2>Heading 2
+            <small>Subheading</small>
+        </h2>
+        <h3>Heading 3
+            <small>Subheading</small>
+        </h3>
+        <h4>Heading 4
+            <small>Subheading</small>
+        </h4>
+        <h5>Heading 5
+            <small>Subheading</small>
+        </h5>
+        <h6>Heading 6
+            <small>Subheading</small>
+        </h6>
 
-                <h3 class="text-medium text-gray text-with-subtitle">Text huge</h3>
-                <p class="text-huge text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p>This is a paragraph. with some
+            <strong>bold text</strong> and some
+            <em>italics text</em>.</p>
+        <p>
+            <a href="#">This is a link.</a>
+            <small>This is some small text.</small>
+            <sub>Subscript</sub>
+            <sup>Superscript</sup>
+        </p>
 
-                <h3 class="text-medium text-gray text-with-subtitle">Text big</h3>
-                <p class="text-big text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <hr/>
 
-                <h3 class="text-medium text-gray text-with-subtitle">Text medium</h3>
-                <p class="text-medium text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-
-                <h3 class="text-medium text-gray text-with-subtitle">Text small</h3>
-                <p class="text-small text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            </section>
-    
+    </article>
 </body>
+
 </html>
